@@ -3,20 +3,7 @@
 ## Project Overview
 This repository contains research and analysis related to sentiment extraction from **earnings call transcripts** and its impact on **stock price movements**. The project started as a **group assignment**, where we explored sentiment differences in **Prepared Remarks vs. Q&A sections** of earnings call transcripts. Building upon this, I extended the research individually by integrating **stock price data** to analyze how sentiment influences market movements.
 
----
 
-## Files and Structure
-
-### Group Project Files:
-- 📄 **REPORT-13.pdf** – Detailed research report on sentiment analysis in earnings call transcripts.
-- 📊 **PRESENTATION-13.pdf** – Presentation summarizing the findings.
-- 📜 **CODE-13.ipynb** – Jupyter Notebook with sentiment analysis code.
-
-### Individual Analysis Files:
-- 📄 **Untitled presentation.pdf** – Stock price impact analysis.
-- 📜 **ai_project1.ipynb** – Notebook performing sentiment-based stock prediction.
-
----
 
 ## Group Research: Sentiment in Earnings Call Transcripts
 
