@@ -10,7 +10,7 @@ This repository contains research and analysis related to sentiment extraction f
 ### 🔎 Research Question
 **Which sections of earnings call transcripts (Prepared Remarks vs. Q&A) provide stronger financial sentiment signals?**
 
-### 🛠️ Methodology
+###  Methodology
 - **Data:** 18,755 earnings call transcripts from Motley Fool.
 - **Preprocessing:** TF-IDF, Named Entity Recognition (NER), Latent Dirichlet Allocation (LDA).
 - **Sentiment Analysis:** Using **FinBERT**, a pre-trained financial NLP model.
@@ -18,7 +18,7 @@ This repository contains research and analysis related to sentiment extraction f
   - **Sliding Window Technique** to handle long transcripts.
   - **Stop-word removal comparison** (with/without English stop words).
 
-### 📊 Findings
+###  Findings
 - **Prepared Remarks** carry **stronger sentiment signals**.
 - **Q&A sessions** are more **neutral** and provide less financial sentiment impact.
 - Removing stop-words speeds up computation **3× faster**, but weakens the sentiment signal.
@@ -27,10 +27,10 @@ This repository contains research and analysis related to sentiment extraction f
 
 ## Individual Research: Sentiment & Stock Price Impact
 
-### 🔎 Goal
+###  Goal
 To investigate **how sentiment extracted from earnings call transcripts influences stock price movements**.
 
-### 🛠️ Methodology
+### 🛠 Methodology
 - **Stock Data:** Retrieved from Yahoo Finance API.
 - **Feature Engineering:**
   - Stock prices **10-30 days before** transcript release.
@@ -46,7 +46,7 @@ To investigate **how sentiment extracted from earnings call transcripts influenc
 - **Sentiment scores improve performance**, but removing macroeconomic factors (COVID/elections) gave better results.
 - **No significant relationship between COVID & stock direction**, but **higher positive sentiment was correlated with stock increases**.
 
-### 🔬 Future Research
+###  Future Research
 - Use **FinnHub API** to collect **more stock data**.
 - **Scale analysis** to a larger dataset for robustness.
 - Explore **longer-term stock price effects** beyond 3 days.
